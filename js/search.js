@@ -6,7 +6,10 @@ const search = () => {
 	// 	console.log(event.target.value);
 	// })
 
-	
+	searchBtn.addEventListener('click', (event) => {
+		console.log(input.value);
+	})
+	// написать обработчик события click на кнопке и по этому события выводить input.value в консоль
 };
 
 search();
